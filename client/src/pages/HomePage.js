@@ -8,6 +8,7 @@ import ButtonGroup from "antd/es/button/button-group";
 import { floatButtonPrefixCls } from "antd/es/float-button/FloatButton";
 import { useCard } from "../context/cart";
 import toast from "react-hot-toast";
+import "../styles/Homepage.css";
 
 const HomePage = () => {
   const [cart, setCart] = useCard();
